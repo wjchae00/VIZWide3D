@@ -25,7 +25,7 @@
 |               |                          | View        | 모델 닫기           | cbClose                 | 파일 닫기                                                      |
 |               |                          | View        | 파일 추가           | cbAddFiles              | 파일 추가                                                      |
 |               |                          | Console log | 이벤트             | cbModelLoadingCompleted | 파일 로딩 완료 시점 로그 출력                                          |
-| Object        | index_object        | Console log | 노드 반환           | cbGetNodeByName         | 특정 'keyword'로 검색 반환된 노드 로그 출력                              |
+| Object        | index_object        | Consolelog | 노드 반환           | cbGetNodeByName         | 특정 'keyword'로 검색 반환된 노드 로그 출력                              |
 |               |                          | View        | 노드 선택           | cbSelectNodes           | 특정 'keyword'의 노드 선택                                        |
 |               |                          | Console log | 모델 선택 이벤트       | cbSelectNodeEvent       | 선택된 object 노드 로그 출력                                        |
 | Color         | index_color         | View        | 노드 색상 변경        | cbSetColor              | 특정 노드 색상 변경                                                |
