@@ -46,7 +46,7 @@
 |               |                          | View        | \-ISO           | cbSetCameraMinusISO     | \-ISO 카메라 설정                                               |
 |               |                          | View        | Matrix 카메라 설정   | cbSetCameraData         | Matrix를 구성해 카메라를 설정                                        |
 |               |                          | Console log | 카메라 정보 반환       | cbGetCameraData         | 카메라 정보 반환                                                  |
-| Search        | index_search        | Console log | 노드 검색           | cbFindNode              | QuickSearch (Full match : false) - 특정 keyword 검색된 노드 로그 출력|
+| Search        | index_search        | Console log | 노드 검색           | cbFindNode              | QuickSearch(Full match : false) - 특정 keyword 검색된 노드 로그 출력|
 |               |                          | Console log | 검색어 일치          | cbFindNodeKeywordMatch  | QuickSearch (Full match : true)- 특정 keyword 검색된 노드 로그 출력|
 |               |                          | Console log | 속성 포함           | cbIncludeProperty       | 특정 Property 검색된 노드 로그 출력              |
 | Note          | index_note          | View        | Surface Note 생성 | cbAddSurfaceNote        | Surface Note 생성                                            |
