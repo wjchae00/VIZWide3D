@@ -20,11 +20,11 @@
 | 기능            | 샘플 파일 (.html)  | 출력 형태  | 세부 기능           | 콜백 함수                   | 기능 설명                                                      |
 | ------------- | ------------------------ | ----------- | --------------- | ----------------------- | ---------------------------------------------------------- |
 | Initialize    | index_initialize    |             | 초기화                | onInit                        |초기화                                                           |
-| Configuration | index_configuration |             | 초기 환경 설정 변경 | onConfiguration         | 초기 환경에 설정된 값을 변경                                           |
+| Configuration | index_ configuration |             | 초기 환경 설정 변경 | onConfiguration         | 초기 환경에 설정된 값을 변경                                           |
 | File          | index_file          | View        | 파일 열기           | cbOpenFile              | 파일 열기                                                      |
 |               |                          | View        | 모델 닫기           | cbClose                 | 파일 닫기                                                      |
 |               |                          | View        | 파일 추가           | cbAddFiles              | 파일 추가                                                      |
-|               |                          | Console log | 이벤트             | cbModelLoadingCompleted | 파일 로딩 완료 시점 로그 출력                                          |
+|               |                          | Consolelog | 이벤트             | cbModelLoading Completed | 파일 로딩 완료 시점 로그 출력                                          |
 | Object        | index_object        | Console log | 노드 반환           | cbGetNodeByName         | 특정 'keyword'로 검색 반환된 노드 로그 출력                              |
 |               |                          | View        | 노드 선택           | cbSelectNodes           | 특정 'keyword'의 노드 선택                                        |
 |               |                          | Console log | 모델 선택 이벤트       | cbSelectNodeEvent       | 선택된 object 노드 로그 출력                                        |
@@ -46,13 +46,13 @@
 |               |                          | View        | \-ISO           | cbSetCameraMinusISO     | \-ISO 카메라 설정                                               |
 |               |                          | View        | Matrix 카메라 설정   | cbSetCameraData         | Matrix를 구성해 카메라를 설정                                        |
 |               |                          | Console log | 카메라 정보 반환       | cbGetCameraData         | 카메라 정보 반환                                                  |
-| Search        | index_search        | Console log | 노드 검색           | cbFindNode              | QuickSearch (Full match : false) - 특정 keyword 검색된 노드 로그 출력|
+| Search        | index_search        | Console log | 노드 검색           | cbFindNode              | QuickSearch(Full match : false) - 특정 keyword 검색된 노드 로그 출력|
 |               |                          | Console log | 검색어 일치          | cbFindNodeKeywordMatch  | QuickSearch (Full match : true)- 특정 keyword 검색된 노드 로그 출력|
 |               |                          | Console log | 속성 포함           | cbIncludeProperty       | 특정 Property 검색된 노드 로그 출력              |
 | Note          | index_note          | View        | Surface Note 생성 | cbAddSurfaceNote        | Surface Note 생성                                            |
 |               |                          | View        | 3D Note 생성      | cbAdd3DNote             | 3D Note 생성                                                 |
 |               |                          | View        | 2D Note 생성      | cbAdd2DNote             | 2D Note 생성                                                 |
-|               |                          | View        | Surface Note 수정 | cbChangeSurfaceNote     | Surface Note 수정                                            |
+|               |                          | View        | SurfaceNote 수정 | cbChangeSurfaceNote     | Surface Note 수정                                            |
 |               |                          | View        | 3D Note 수정      | cbChange3DNote          | 3D Note 수정                                                 |
 |               |                          | View        | 2D Note 수정      | cbChange2DNote          | 2D Note 수정                                                 |
 |               |                          | Console log | Note 선택 이벤트     | cbSelectNote            | 선택된 Note의 정보 출력                                            |
