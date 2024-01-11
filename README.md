@@ -20,11 +20,11 @@
 | 기능            | 샘플 파일 (.html)  | 출력 형태  | 세부 기능           | 콜백 함수                   | 기능 설명                                                      |
 | ------------- | ------------------------ | ----------- | --------------- | ----------------------- | ---------------------------------------------------------- |
 | Initialize    | index_initialize    |             | 초기화                | onInit                        |초기화                                                           |
-| Configuration | index_configuration |             | 초기 환경 설정 변경 | onConfiguration         | 초기 환경에 설정된 값을 변경                                           |
+| Configuration | index_ configuration |             | 초기 환경 설정 변경 | onConfiguration         | 초기 환경에 설정된 값을 변경                                           |
 | File          | index_file          | View        | 파일 열기           | cbOpenFile              | 파일 열기                                                      |
 |               |                          | View        | 모델 닫기           | cbClose                 | 파일 닫기                                                      |
 |               |                          | View        | 파일 추가           | cbAddFiles              | 파일 추가                                                      |
-|               |                          | Console log | 이벤트             | cbModelLoadingCompleted | 파일 로딩 완료 시점 로그 출력                                          |
+|               |                          | Console log | 이벤트             | cbModelLoading Completed | 파일 로딩 완료 시점 로그 출력                                          |
 | Object        | index_object        | Consolelog | 노드 반환           | cbGetNodeByName         | 특정 'keyword'로 검색 반환된 노드 로그 출력                              |
 |               |                          | View        | 노드 선택           | cbSelectNodes           | 특정 'keyword'의 노드 선택                                        |
 |               |                          | Console log | 모델 선택 이벤트       | cbSelectNodeEvent       | 선택된 object 노드 로그 출력                                        |
